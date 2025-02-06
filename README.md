@@ -1,7 +1,14 @@
 # Nexus Docker Repository with Nginx
 
 ## **Project Overview**
-This project sets up **Nexus Repository Manager** as a **private Docker registry** using **Docker Compose** and **Nginx as a reverse proxy**. It provides a secure, self-hosted container registry for managing Docker images.
+This project sets up **Nexus Repository Manager** as a **private Docker registry** using **Docker Compose** and **Nginx as a reverse proxy**. It provides a secure, self-hosted container registry for managing Docker images. It enables teams to store, manage, and distribute Docker images securely, without relying on public registries like Docker Hub.
+
+## **This project was built to**
+
+Provide a private container registry for better control over Docker images.
+Improve security by using an SSL-protected reverse proxy.
+Ensure faster deployments by avoiding external dependencies.
+Enable local development and CI/CD pipelines without relying on external registries
 
 ## **Objectives**
 - Deploy **Nexus Repository Manager** in a containerized environment.
